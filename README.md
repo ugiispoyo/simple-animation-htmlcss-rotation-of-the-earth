@@ -1,4 +1,4 @@
-# Simple CSS Animation 1
+# Simple HTML CSS Animation rotation of the earth
 
 [Link Sandbox](https://codesandbox.io/s/simple-animation-css-rotation-of-the-earth-hs2yk5?file=/index.html)
 
