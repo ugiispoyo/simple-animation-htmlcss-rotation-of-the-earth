@@ -1,0 +1,54 @@
+body {
+  background: #000;
+}
+
+.tata-surya {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap-tata-surya {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.matahari img {
+  width: 300px;
+  height: auto;
+  animation: rotasi 20s linear infinite;
+}
+
+
+.bumi {
+  width: 550px;
+  height: 550px;
+  content: '';
+  border: 1px solid #fff;
+  position: absolute;
+  border-radius: 100%;
+  left: 10%;
+  top: 10%;
+  animation: rotasi 12s linear infinite;
+}
+.bumi img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: absolute;
+  animation: rotasi 10s linear infinite;
+  left: 20%;
+  top: 0%;
+}
+
+@keyframes rotasi {
+  to {
+    transform: rotate(360deg);
+  }
+}
